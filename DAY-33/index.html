@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Movie Explorer UI</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+    <div class="bg-animation"></div>
+
+    <div class="container py-5">
+
+        <!-- Header -->
+        <div class="text-center mb-5">
+            <h1 class="title">🎬 Movie Explorer</h1>
+            <p class="subtitle">Discover your favorite movies instantly</p>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                <div class="search-box d-flex">
+                    <input type="text" class="form-control search-input" placeholder="Search movies...">
+                    <button class="btn search-btn ms-2">Search</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Movies Grid -->
+        <div class="row g-4">
+
+            <!-- Movie Card -->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="movie-card">
+                    <img src="https://www.omdbapi.com/?i=tt3896198&apikey=ff744821" class="img-fluid">
+                    <div class="movie-info">
+                        <h5>Movie Title</h5>
+                        <p>2024</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
