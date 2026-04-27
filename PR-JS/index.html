@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Todo Task</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body style="background-color: antiquewhite;">
+  <div class="container ">
+    <div class=" rounded mt-4 mb-3">
+      <h2 class="d-flex justify-content-center">Task Manager</h2>
+      <!-- inter face -->
+      <div class="d-flex justify-content-center gap-4">
+        <div class="mb-2">
+          <input type="text" class="form-control w-auto" id="input" placeholder="ex - Workout ,reading ets.....">
+        </div>
+        <div>
+          <select id="input-priority" class="form-select  mb-3" aria-label="Large select example">
+            <option selected value="Defult">Select Priority</option>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+          </select>
+        </div>
+        <div>
+          <button id="update-btn" class="btn btn-primary"> Update task</button>
+          <button id="add-btn" class="btn btn-primary"> Add Task</button>
+        </div>
+      </div>
+    </div>
+  
+    <div>
+      <div class="rounded mt-4">
+        <h2 class="d-flex justify-content-center pt-2 ms-2">Daily Task :</h2>
+        
+        <div>
+          <div id="task_manager">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
